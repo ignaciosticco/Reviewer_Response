@@ -1,0 +1,451 @@
+\documentclass[a4paper,12pt]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}        %permite rellenar las figuras (circulos)
+\usepackage{etoolbox}
+
+\begin{document}
+% If you want headings on subsequent pages,
+% remove the ``%'' on the next line:
+% \pagestyle{headings}
+
+\begin{letter}{Response to the reviewers report}
+%\address{Departamento de F\'isica \\ Fac. Ciencias Exactas y Naturales - UBA}
+
+\opening{}
+
+The following are your comments on our manuscript ``A re-examination of the role 
+of friction in the original Social Force Model''. 
+
+
+\begin{verbatim}
+==============
+Referee (1)
+
+The paper deals with the well known Helbing's social force 
+model for simulating pedestrian dynamics. By means of some 
+numerical simulations and comparisons with real data, the 
+author improves the model unveiling, at the same time, the 
+role of the friction coefficient. The author also shows 
+that the role of the friction coefficient is basically 
+the same of that of the relaxation time.
+
+The paper is fine and I think it can be published, provided 
+some corrections are made. More precisely, I think that the 
+paper is not well organized and the message is difficult to 
+follow. I strongly suggest to include Appendix A in the main 
+text. Section 3 ("Numerical simulations") should be named 
+somethink like "Setting and parameters". Section 4 ("Results"),
+which should be the core of the paper, is by far too long. 
+Subsection 4.1 ("Hypotheses") is fine but does not contain 
+"results". Subsection 4.2 contains numerical results, but 
+they are not new.
+
+Other comments:
+
+1) Section 1: the author could add the reference to two 
+papers which introduced the SF idea much before Helbing.
+
+[A] S. Okazaki, A study of pedestrian movement in architectural
+space, Part 1: pedestrian movement by the application of 
+magnetic model. Trans. A.I.J. 283, 111–119 (1979).
+
+[B] K. Hirai, K. Tarui, A simulation of the behavior of a 
+crowd in panic, Proceedings of the 1975 International 
+Conference on Cybernetics Society (1975), pp. 409-411.
+
+2) End of page 6: "it is well known that the seminal 
+version..." A reference should be added.
+
+3) p.10: you cannot refer to $\mathcal A$ and \mathcal K$ 
+like you do. The most important equations of Appendix A must 
+be introduced here.
+
+4) p.14: Fig.1 is not present.
+
+5) Caption Fig.9: k is k_i or k_w?
+
+==============
+\end{verbatim}
+
+%\newpage
+
+\ps{Response to Referee (1): 
+
+The following comments are outlined in the same order as appearing in the
+reviewer’s report. \\
+
+The reviewer suggests a reorganization of the manuscript in order to improves 
+the lecture. \\ 
+
+Also, the reviewer made other comments.
+
+1) The reviewer cites some research that introduced the SF idea much before 
+Helbing \textit{et al.}. We included the citations mentioned by the reviewer 
+and the following comment in the revised manuscript (see the beginning of 
+Section 1). 
+
+\begin{verbatim}
+The last decades have develop many microscopic models for crowd
+dynamics. One of the first model was develop by Hirai and Tarui 
+(1975) introducing the class of force based models. These models 
+represents the interaction between pedestrians and their 
+environment through different kinds of forces. For example, 
+Okazaki (1979) simulated the movement of each pedestrian by the 
+motion of a magnetized object in magnetic field which exerts 
+attractive force on the different kind of magnetic poles.
+\end{verbatim}
+
+2) The reviewer points out that we have to include a reference at the end of 
+page 6. We added the corresponding cite. \\
+
+3) ---
+
+4) The reviewer indicates that Fig.1 is not present.  
+
+5) ---
+
+\iffalse
+The reviewer is concerned on the formal definition of the contagion 
+efficiency $\mathcal{P}$ appearing in Eq.~(7). She points out that 
+$\mathcal{P}$ does not express an explicit transition rate (from the relaxed 
+state to the anxious state), but the time integral of this rate along the time 
+period $\tau_i$. The common practice in stochastic theory is to (naturally) 
+introduce the transition rate and allow the pedestrians to mutate of state 
+after integrated in time. \\
+
+We examined again the definition expressed by Eq.~(7) and noticed that it is 
+not clear enough, as pointed out by the reviewer. The contagion efficiency 
+$\mathcal{P}$ is intended as the chance to mutate of state at the ``information 
+time-steps'' $\tau_i$, $2\tau_i$, $3\tau_i$, ....  The chance for this event to 
+occur within the time interval $(t,t+dt)$ reads 
+
+
+\begin{equation}
+ d\mathcal{P}(t)=\left\{\begin{array}{ccl}
+                    
+J\displaystyle\bigg\langle\frac{k}{n}\bigg\rangle\,
+\displaystyle\frac{dt}{\tau_i} &
+\mathrm{if} & m\tau_i\in (t,t+dt) \\
+                    & & \\
+                    0  & \mathrm{if} & \mathrm{not}  \\
+                    \end{array}\right.\label{eqn:formal_P}
+\end{equation}
+
+for $m=1,2,3,...$. The transition rate can be computed straight forward from 
+the above, say, as $d\mathcal{P}/dt$.  However, an appropriate formal 
+expression for attaining the complete piecewise information in 
+Eq.~(\ref{eqn:formal_P}) should read as
+
+\begin{equation} 
+\displaystyle\frac{d\mathcal{P}}{dt}
+=\displaystyle\int_t^{t+\tau}
+\displaystyle\frac{J}{\tau_i}\,
+\displaystyle\bigg\langle\frac{k}{n}\bigg\rangle \,
+\delta(t-m\tau_i)\,dt\label{eqn:formal_P_2}
+\end{equation}
+
+where $\delta(\cdot)$ stands for the Dirac's delta function. This function 
+represents the fact that the pedestrians are allowed to mutate at fixed 
+time-steps.  Notice that $J/\tau_i$ corresponds to a ``normalized'' contagion 
+stress whenever the ``information time-step'' is set to $\tau_i$. We refer to 
+this normalized contagion stress along the simulation processes.  \\
+
+We decided to replace Eq.~(7) from the original manuscript by expressions 
+(\ref{eqn:formal_P}) and (\ref{eqn:formal_P_2}) for the sake of clarity. The 
+former Eq.~(7) now appears in Section 4.2 when explaining the computational 
+procedure. The text in Sections 2.3, 2.4 and Appendix C was changed accordingly. 
+\\
+\fi
+
+}
+
+\newpage
+
+\begin{verbatim}
+==============
+Referee (2)
+
+The paper studies the impact of the friction parameter in the 
+original SFM.
+
+At first I thought this is a work concerned with the calibration 
+of a parameter in an old model for a special case: corridors. 
+This sounds very specific and not so overwhelmingly interesting,
+right? However, I think this paper contains some nice ideas and 
+results that are certainly interesting for the community if 
+written and presented adequately. In my opinion the very best 
+part of the paper comes in the last 2/3 of the manuscript.
+Only here, the paper starts to show interesting analysis and 
+results, I would describe as original. I think the authors 
+would be better off focusing more on the content in Appendix A
+and B. This nice normalization, is good. from there work with 
+Eq. (A.3) and go on with the clustering analysis. The analysis 
+shown in Fig. 6 is also interesting. Here, I wish the authors 
+could shed more light on the famous boundary effects, so
+controversially discussed in the literature.
+
+Here are some specific comments to the text:
+
+1) Reading the introduction, I believe the authors know very good 
+the works done by Helbing and some of his co-authors, especially 
+Johansson. Most of the references in the text are citing these two 
+(Ref. 2 most of all). I believe, it would be good to broaden a 
+bit the literature review in the introduction to more recent 
+works as well. At last, during the last 10 years some positive 
+development in the community could be observed, right?
+
+2) I also suggest to reduce the obvious enthusiasm of the authors 
+and dispense with the use of superlatives like "a wonderful 
+summary" or "a seminal work" (repeated many times). By the way, 
+Ref. 16 is from 2007. A more recent review of empirical data 
+can be found here doi : 10.1007/978 - 3 - 642 - 27737 - 5_706 - 1"
+Empirical Results of Pedestrian and Evacuation Dynamics"
+
+3) The very first paragraph in the paper is not quite accurate in 
+my opinion. The force social force model ever presented was 
+published in K. Hirai and K.Tarui in 1975 (a simulation of the 
+behavior of a crowd in panic, Proc. of the 1975 International 
+Conference on Cybernetics and Society. (1975) 409-411). The 
+model was not called SFM, but it is a force-model that "nicely 
+bridges the socio-psychology with Newtonian dynamics".
+
+4) It is not clear to me why the SFM explains why the faster-is-slower 
+effect happens. It can be produces, yes, but it does not explain 
+why. Please clarify or reformulate.
+
+5) In general the authors write "Helbing and co-workers". I suggest 
+to use the more formal et al. This is also more necessary in the 
+references. There sometimes the authors use all names of the 
+authors and sometimes only the first author followed by et al. 
+Please also check some errors in some names (K\"oster, 
+L\"ohner, . . . )
+
+6) Equations are missing punctuation.
+
+7) Section 3: Why is the length of the corridor L=28m while the width 
+is w=40m. This sounds strange and I’m not sure if it is necessary 
+to have some big values for w.
+
+8) Section 3: Why are the details about the implementation (C++, 
+LAMMPS) necessary? I think unless the authors are intending to 
+open-source their code (which would be nice by the way) there 
+is no need to mention these details. Also the authors mention 
+a LAMMPS built in function calculating the clusters. What is
+this function?
+
+9) Section 4: Here the authors cite a lot of other works, especially 
+from 2 and 36, but they do not give their own opinion, in regard 
+of the new findings. Again just a reminder Ref 2 is 10 years old. 
+For new findings see Loehner PED 2016 in Hefei.
+
+10) Page 10: vd is the desired speed not the "anxiety level".
+
+11) Page 14: "In our case, pedestrians near the walls are the ones 
+with the lower velocity". Is this a know empirical fact? Why is 
+it so? Maybe the authors could explain more this phenomenon. 
+
+12) I think Fig. 4 and 5 can be safely removed and just replaced 
+with Fig. 6. The normalisation here is nice.
+
+13) The interesting phenomenon the authors show in page 23 was not 
+well analysed and explained. Why is it for high k pedestrians 
+stick together more? Intuitively I would think that high k means 
+high repulsive forces which means that pedestrians stay away 
+from each other not other way around.
+
+14) In Appendix A the two Parameters in Eq. A.3 are not discussed. 
+Instead the focus is still on tau and k. How is this good? Why do 
+you normalize the model, come up with two parameters only then 
+to continue discussing the parameters in the un-normalized 
+model?
+
+To summarize, I think this paper can be published. However, 
+some heavy restructuring and deeper analysis on the points of 
+interests may be necessary. 
+
+==============
+
+\end{verbatim}
+
+
+\ps{Response to referee (2): \\
+
+The following comments are outlined in the same order as appearing in the
+reviewer’s report. \\
+
+1) ---\\
+
+2) The reviewer suggests to dispense the use of sentences like ``a wonderful 
+summary'' or a ``seminal work''. In order to avoid these ... sentences, we 
+replaced it by more appropriate words throughout the manuscript. \\
+
+On the other side, we acknowledged the citation introduced by the reviewer and 
+we included in the revised manuscript. \\
+
+3) The reviewer points out that the first paragraph of the manuscript is not 
+quite accurate. Also, indicates that the Social Force model was introduced much 
+before Helbing \textit{et al.}. \\
+
+Section 1.0 (Introduction) has been improved taking into account his (her) 
+comments and, also, the reviewer's \verb?#1? ones (see above). 
+
+%We further improved the first two paragraphs of the introduction in order to 
+%make more accurate. \\ 
+
+4) The reviewer asks why we said that the SFM explains the faster is 
+slower effect. \\
+
+5) The reviewer suggests to chance some sentences, like ``and co-workers'' by 
+the more formal \textit{et al.}. 
+
+We acknowledge this issue and made the corresponding changes in the
+revised manuscript. \\
+
+6) ---\\
+
+7) The reviewer wants to know the reasons for the analyzed corridor dimensions. 
+\\
+
+In order to have a complete analysis of the role of the friction in the 
+simulations, we analyzed a wide range of corridor widths (from 2~m to 40~m). \\ 
+
+8) The reviewer asks why we mentioned many details of the implementation despite 
+we do not open source our code. \\
+
+In order to allows the reader a better inside of the simulation process, we 
+considered important points out many details about it implementation despite we 
+do not open source our code. \\
+
+Furthermore, the reviewer wants to know about the LAMMPS built in function for 
+computing the clusters. \\
+
+We included in Section \textit{Simulation software} the name of the LAMMPS 
+built in function and we explained how this function works. \\ 
+
+9) --- \\
+
+10) We acknowledge this issue and made the corresponding change in the 
+manuscript.\\
+
+11) --- \\
+
+12) --- \\
+
+13) The reviewer want to know why as $\kappa$-value increases, the more 
+pedestrian's stick together. Apparently, the reviewer misunderstand the meaning 
+of $\kappa$. \\
+
+We are glad to explain this misunderstanding. $\kappa$ is the coefficient of the 
+friction force and, therefore, is not related with the repulsive force 
+$\mathbf{f}_s$. Thus, as $\kappa$ increases, the more pedestrian's stick 
+together due the nature of the frictional force. Also, we wants to remark that 
+the friction force is tangential to the center of mass between two pedestrians, 
+while the social force is normal to it. \\
+
+14) ---\\
+
+\iffalse
+The Reviewer~\#5 is overall satisfied with our reply about these issues. But, 
+he (she) suggests two minor revisions:\\
+
+1) The reviewer points out that the term ``contagion'' is somehow problematic. 
+He (she) suggests to either get rid of the ``contagion'' term or write a short 
+paragraph in order to clarify our understanding of the term. At the same time, 
+the reviewer recognizes that the interpretation of the term ``contagion'' is 
+different depending of the field. \\
+
+In order to avoid any misunderstanding of the term ``contagion'' we replaced it 
+by ``propagation'' or ``spreading'', as a more appropriate one throughout the 
+manuscript. \\
+
+Again, we want to thanks the Reviewer~\#5 for his (her) comments and his 
+(her) recommendation of the Human Crowd Dynamics Glossary. \\
+
+2) We examined the recommended work by A. R. Mawson (2005) and corrected our 
+misunderstanding. The revised version (second paragraph of Section 1) expresses 
+these ideas accurately.   
+\fi
+
+\begin{verbatim}
+  ==============
+\end{verbatim}
+
+}
+
+\newpage
+
+\begin{verbatim}
+==============
+Referee (3)
+
+The authors discussed the role of friction in SFM. The topic is 
+interesting and worthy studying. However, there are issues that 
+should be addressed before processing to a possible publication 
+of this work.
+
+1. Nonstandard reference issues:
+
+(1) Numerical order. For instance, “[10, 12, 8]” (Introduction,
+page 5, paragraph 1).
+(2) The format of References is inconsistent.
+
+2. The format of unit is nonstandard. For instance, “Pm- 2 ” 
+(Fig.2) and “p/m 2” (Fig. 3).
+
+3. Numerical simulations, page 8, paragraph 3: The desired 
+velocity for each pedestrian was 1 m/s. Whether the desired 
+velocity has an effect on the result?
+
+4. Clusters, page 22, paragraph 2: In an enhanced friction scenario 
+the individuals find it harder to detach from each other. Then 
+why are possibilities of pedestrian belong to a small cluster 
+and giant cluster almost equal? Why does a bimodal distribution 
+occur in Figs. 9(d)-(f)?
+
+5. Why does not the velocity profile report any relevant difference 
+as the corridor widens, while the fundamental diagram does?
+
+6. Numerical simulations, page 7, last paragraph: Initially, the 
+individuals were randomly distributed along the corridor, and 
+the corridor with periodic boundary conditions. Whether the 
+initial distribute and boundary conditions may have an effect 
+on simulations?
+
+7. English writing should be improved.
+
+==============
+
+\end{verbatim}
+
+
+\ps{Response to referee (3): \\
+
+The following comments are outlined in the same order as appearing in the
+reviewer’s report. \\
+
+1-2) We acknowledge these issues and made the corresponding change in the 
+manuscript.\\
+
+
+
+\begin{verbatim}
+  ==============
+\end{verbatim}
+
+}
+
+Your consideration of this revised manuscript for publication in 
+\textit{Safety Science} is greatly appreciated. 
+Please find attached the new version. \\
+
+%\signature{Fernando Cornes, Guillermo Frank and Claudio Dorso}
+
+\closing{Sincerely}
+
+%enclosure listing
+%\encl{}
+
+\end{letter}
+\end{document}

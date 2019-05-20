@@ -1,0 +1,126 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{volchenkov}
+D.~Volchenkov, S.~Sharoff, {On the application of the dynamical systems theory
+  to social modeling}, in: P.~Blanchard, R.~Lima, L.~Streit, R.~V. Mendes
+  (Eds.), The Sciences of Complexity: From Mathematics to Technology to a
+  Sustainable World, Vol. CD-ROM, ZiF - Center for Interdisciplinary Research,
+  2001.
+
+\bibitem{zhao}
+H.~Zhao, J.~Jiang, R.~Xu, Y.~Ye, Sirs model of passengers' panic propagation
+  under self-organization circumstance in the subway emergency, Mathematical
+  Problems in Engineering 2014 (2014) 608315.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1155/2014/608315}
+  {\path{doi:http://dx.doi.org/10.1155/2014/608315}}.
+
+\bibitem{fu2014}
+L.~Fu, W.~Song, W.~Lv, S.~Lo, Simulation of emotional contagion using modified
+  sir model: A cellular automaton approach, Physica A: Statistical Mechanics
+  and its Applications 405~(Supplement C) (2014) 380 -- 391.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.physa.2014.03.043}
+  {\path{doi:https://doi.org/10.1016/j.physa.2014.03.043}}.
+
+\bibitem{fu2016}
+L.~Fu, W.~Song, W.~Lv, X.~Liu, S.~Lo, Multi-grid simulation of counter flow
+  pedestrian dynamics with emotion propagation, Simulation Modelling Practice
+  and Theory 60~(Supplement C) (2016) 1 -- 14.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/j.simpat.2015.09.007}
+  {\path{doi:https://doi.org/10.1016/j.simpat.2015.09.007}}.
+
+\bibitem{chen2015}
+G.~Chen, H.~Shen, G.~Chen, T.~Ye, X.~Tang, N.~Kerr, A new kinetic model to
+  discuss the control of panic spreading in emergency, Physica A: Statistical
+  Mechanics and its Applications 417 (2015) 345 -- 357.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.physa.2014.09.055}
+  {\path{doi:https://doi.org/10.1016/j.physa.2014.09.055}}.
+
+\bibitem{Ta}
+X.-H. Ta, B.~Gaudou, D.~Longin, T.~Ho, Emotional contagion model for group
+  evacuation simulation, Informatica 41 (2017) 169--182.
+
+\bibitem{pelechano}
+N.~Pelechano, J.Allbeck, N.~Badler,
+  \href{https://repository.upenn.edu/hms/210}{Controlling individual agents in
+  high-density crowd simulation}, Proceedings of the 2007 ACM
+  SIGGRAPH/Eurographics Symposium on Computer Animation (2007) 99--108.
+\newline\urlprefix\url{https://repository.upenn.edu/hms/210}
+
+\bibitem{nicolas}
+A.~Nicolas, S.~Bouzat, M.~N. Kuperman,
+  \href{https://link.aps.org/doi/10.1103/PhysRevE.94.022313}{Statistical
+  fluctuations in pedestrian evacuation times and the effect of social
+  contagion}, Phys. Rev. E 94 (2016) 022313.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevE.94.022313}
+  {\path{doi:10.1103/PhysRevE.94.022313}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.94.022313}
+
+\bibitem{Helbing1}
+D.~Helbing, I.~Farkas, T.~Vicsek, Simulating dynamical features of escape
+  panic, Nature 407 (2000) 487--490.
+
+\bibitem{Helbing4}
+D.~Helbing, P.~Moln\'ar, Social force model for pedestrian dynamics, Physical
+  Review E 51 (1995) 4282--4286.
+
+\bibitem{Dorso3}
+G.~Frank, C.~Dorso, Room evacuation in the presence of an obstacle, Physica A
+  390 (2011) 2135--2145.
+
+\bibitem{Dorso1}
+D.~Parisi, C.~Dorso, Microscopic dynamics of pedestrian evacuation, Physica A
+  354 (2005) 606--618.
+
+\bibitem{Dorso5}
+F.~Cornes, G.~Frank, C.~Dorso, High pressures in room evacuation processes and
+  a first approach to the dynamics around unconscious pedestrians, Physica A:
+  Statistical Mechanics and its Applications 484 (2017) 282 -- 298.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.physa.2017.05.013}
+  {\path{doi:https://doi.org/10.1016/j.physa.2017.05.013}}.
+
+\bibitem{molinelli}
+C.~O. Dorso, P.~A. Gim\'enez~Molinelli, J.~A. L\'opez,
+  \href{https://link.aps.org/doi/10.1103/PhysRevC.86.055805}{Topological
+  characterization of neutron star crusts}, Phys. Rev. C 86 (2012) 055805.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevC.86.055805}
+  {\path{doi:10.1103/PhysRevC.86.055805}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevC.86.055805}
+
+\bibitem{Michielsen}
+K.~Michielsen, H.~D. Raedt, Integral-geometry morphological image analysis,
+  Physics Reports 347~(6) (2001) 461 -- 538.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/S0370-1573(00)00106-X}
+  {\path{doi:https://doi.org/10.1016/S0370-1573(00)00106-X}}.
+
+\bibitem{Rasband}
+{Rasband, W.S., ImageJ, U. S. National Institutes of Health, Bethesda,
+  Maryland, USA, https://imagej.nih.gov/ij/, 1997-2016},
+  \href{https://imagej.nih.gov/ij/}{Imagej}.
+\newline\urlprefix\url{https://imagej.nih.gov/ij/}
+
+\bibitem{Dorso4}
+G.~Frank, C.~Dorso, Evacuation under limited visibility, International Journal
+  of Modern Physics C 26 (2015) 1--18.
+
+\bibitem{Dorso6}
+I.~M. Sticco, F.~E. Cornes, G.~A. Frank, C.~O. Dorso,
+  \href{https://link.aps.org/doi/10.1103/PhysRevE.96.052303}{Beyond the
+  faster-is-slower effect}, Phys. Rev. E 96 (2017) 052303.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevE.96.052303}
+  {\path{doi:10.1103/PhysRevE.96.052303}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.96.052303}
+
+\bibitem{plimpton}
+S.~Plimpton, Fast parallel algorithms for short-range molecular dynamics,
+  Journal of Computational Physics 117~(1) (1995) 1 -- 19.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1006/jcph.1995.1039}
+  {\path{doi:http://dx.doi.org/10.1006/jcph.1995.1039}}.
+
+\end{thebibliography}
