@@ -342,7 +342,7 @@ manuscript.\\
 
 This phenomenon resembles a viscous fluid velocity profile (where the lowest velocity of the fluid is located close to the walls while the highest velocity is in the middle of the pipe).  \\
 
-12) --- \\
+12) The reviewer suggests to remove Fig. 4 and 5 and just replaced with Fig. 6. We consider that this is a very good advice and we removed Fig. 4 and Fig. 5.  \\
 
 13) The reviewer want to know why as $\kappa$-value increases, the more 
 pedestrian's stick together.
@@ -354,29 +354,13 @@ together due the nature of the frictional force. Also, we want to remark that
 the friction force is tangential to the center of mass between two pedestrians, 
 while the social force is normal to it. \\
 
-14) ---\\
+14) The reviewer claims that the two parameters in Eq. A.3 are not discussed.
+We acknowledged this issue and added a brief interpretation of the two parameters when introduced.\\
 
-\iffalse
-The Reviewer~\#5 is overall satisfied with our reply about these issues. But, 
-he (she) suggests two minor revisions:\\
+The reviewr asks why we normalize the model and then continue discussing the parameters in the un-normalized model.\\
 
-1) The reviewer points out that the term ``contagion'' is somehow problematic. 
-He (she) suggests to either get rid of the ``contagion'' term or write a short 
-paragraph in order to clarify our understanding of the term. At the same time, 
-the reviewer recognizes that the interpretation of the term ``contagion'' is 
-different depending of the field. \\
+We prefer to continue discussing the parameters in the un-normalized model to make it more understandable for readers that are used to the un-normalized parameters of the SFM. We are planning to further investigate this normalized parameter and write a new paper focusing on the normalized equation of motion and the role of the different parameters of the SFM. This manuscript is a first attempt to study the model in the framework of the reduced in the units equation of motion. We also pretend to encourage the community to study the SFM following this approach.
 
-In order to avoid any misunderstanding of the term ``contagion'' we replaced it 
-by ``propagation'' or ``spreading'', as a more appropriate one throughout the 
-manuscript. \\
-
-Again, we want to thanks the Reviewer~\#5 for his (her) comments and his 
-(her) recommendation of the Human Crowd Dynamics Glossary. \\
-
-2) We examined the recommended work by A. R. Mawson (2005) and corrected our 
-misunderstanding. The revised version (second paragraph of Section 1) expresses 
-these ideas accurately.   
-\fi
 
 \begin{verbatim}
   ==============
@@ -438,10 +422,27 @@ reviewer’s report. \\
 1-2) We acknowledge these issues and made the corresponding change in the 
 manuscript.\\
 
-3) ---\\
+3) The reviewer asks whether the desired velocity has an effect on the result.\\
 
-4) 
+The answer to that question is yes. If the desired velocity is much greater than 1~m/s, the flow vs density relation is a monotonic increasing function. If the desired velocity is less than 1~m/s, the results are very similar to 1~m/s. We decided to use 1~m/s because is roughly the average velocity of a moving pedestrian under normal conditions. \\
 
+4) The reviewer asks why are the possibilities of pedestrians belong to a small cluster and giant cluster almost equal. \\
+
+This interesting phenomena occurs because while most of the pedestrians belong to the giant component, some pedestrians remain isolated ("caged" inside the giant component without being in contact with other pedestrians). This produces the bimodal distribution in Figs. 9 (d)-(f)\\
+
+5) The reviewer asks why does not the velocity profile report any relevant difference as the corridor widens, while the fundamental diagram does.\\
+
+This happens because the fundamental diagram is strongly dependent on the velocity attain by pedestrians. If the corridor widens, the pedestrians in the middle of the corridor (where the fundamental diagram is measured) reach higher velocities. \\
+
+On the other hand, the qualitative behavior of the velocity profile is the same regardless the size of the corridor (parabolic shape). This does not contradict the fact that the wider the corridor, the higher the maximum velocity reached. The shape of the velocity profile only depends on the boundary conditions in the y-coordinate (fixed walls) that leads to a parabolic velocity profile. \\
+
+We modified the section that shows the velocity profile, in this new version we only show the scaled velocity profile. 
+
+6) The reviewer asks whether the initial distribution of pedestrians and boundary conditions may have an effect on the simulations.\\
+
+We checked different initial conditions and saw no significant results. We also tested a situation with a corridor 10 times larger (L = 280 m instead of L = 28 m) to reduce the effect of the boundary conditions. We neither noticed any significant change in the result. \\
+
+7) The reviewer suggests to improve the English writing. We agree with the reviewer and modified some sentences to satisfy this important requirement.  \\
 
 \begin{verbatim}
   ==============
