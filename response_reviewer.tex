@@ -79,6 +79,13 @@ reviewer’s report. \\
 The reviewer suggests a reorganization of the manuscript in order to improves 
 the lecture. \\ 
 
+The reviewer advices to modify the name of Section 3 ("Numerical Simulations"), we agree to rename 
+Section 3 as "Setting and parameters"
+
+The reviewer points that Section 4 ("Results") is too long and Subsection 4.1 ("Hypotheses")
+does not contain results, we moved the "Hypotheses" to a new Section previous to Results 
+(now Section 4 is "Hypotheses" and Section 5 is "Results"). 
+
 Also, the reviewer made other comments.
 
 1) The reviewer cites some research that introduced the SF idea much before 
@@ -277,11 +284,11 @@ reviewer’s report. \\
 1) ---\\
 
 2) The reviewer suggests to dispense the use of sentences like ``a wonderful 
-summary'' or a ``seminal work''. In order to avoid these ... sentences, we 
-replaced it by more appropriate words throughout the manuscript. \\
+summary'' or a ``seminal work''. In order to avoid these expressions, we 
+replaced them by more appropriate words throughout the manuscript. \\
 
 On the other side, we acknowledged the citation introduced by the reviewer and 
-we included in the revised manuscript. \\
+we included it in the revised manuscript. \\
 
 3) The reviewer points out that the first paragraph of the manuscript is not 
 quite accurate. Also, indicates that the Social Force model was introduced much 
@@ -293,53 +300,57 @@ comments and, also, the reviewer's \verb?#1? ones (see above).
 %We further improved the first two paragraphs of the introduction in order to 
 %make more accurate. \\ 
 
-4) The reviewer asks why we said that the SFM explains the faster is 
-slower effect. \\
+4)The reviewer points out that the SFM reproduces the faster-is-slower effect, but the model
+does not explain why the faster-is-slower occurs. We agree with the reviewer and reformulated 
+the text in order to fulfill this statement.\\
 
-5) The reviewer suggests to chance some sentences, like ``and co-workers'' by 
+5) The reviewer suggests to change some sentences, like ``co-workers'' by 
 the more formal \textit{et al.}. 
 
 We acknowledge this issue and made the corresponding changes in the
 revised manuscript. \\
 
-6) ---\\
+We also corrected the names of the following authors: K\"oster and L\"oner  
+
+6) The reviewer noticed that equations are missing punctuation. We added the appropriate punctuation when needed. \\
 
 7) The reviewer wants to know the reasons for the analyzed corridor dimensions. 
 \\
 
-In order to have a complete analysis of the role of the friction in the 
-simulations, we analyzed a wide range of corridor widths (from 2~m to 40~m). \\ 
+The length (28~m) was chosen according to the dimensions of the entrance to the Jamaraat Bridge. 
+The width was varied upto 40~m just to check out if the velocity profile had a qualitative difference with the velocity profile corresponding to narrower corridors (say 12~m). We discovered that regardless the width of the corridor, the behavior of the scaled velocity profile remains the same. 
 
-8) The reviewer asks why we mentioned many details of the implementation despite 
-we do not open source our code. \\
+8) The reviewer asks why we mentioned the details of the implementation despite 
+we do not open-source our code. \\
 
-In order to allows the reader a better inside of the simulation process, we 
-considered important points out many details about it implementation despite we 
-do not open source our code. \\
+In order to allow the reader a better inside of the simulation process, we 
+consider important to point out the details about the implementation. The code is not open-source yet.
+Before open-source the code we are working in documentation and clean up to make it easier to understand by new users and maintain.  \\
 
 Furthermore, the reviewer wants to know about the LAMMPS built in function for 
 computing the clusters. \\
 
-We included in Section \textit{Simulation software} the name of the LAMMPS 
-built in function and we explained how this function works. \\ 
+We included in Subsection \textit{Simulation software} the name of the LAMMPS 
+built in function and we provided a brief explanation of how this function works. \\ 
 
 9) --- \\
 
 10) We acknowledge this issue and made the corresponding change in the 
 manuscript.\\
 
-11) --- \\
+11) Pedestrians near the walls are the ones with lower velocity because the pedestrians which are closest to the wall are the ones who dissipate more energy due to the friction force (exerted by the wall). We do not know if this behavior is reported in empirical measurements.  
+
+This phenomenon resembles a viscous fluid velocity profile (where the lowest velocity of the fluid is located close to the walls while the highest velocity is in the middle of the pipe).  \\
 
 12) --- \\
 
 13) The reviewer want to know why as $\kappa$-value increases, the more 
-pedestrian's stick together. Apparently, the reviewer misunderstand the meaning 
-of $\kappa$. \\
+pedestrian's stick together.
 
-We are glad to explain this misunderstanding. $\kappa$ is the coefficient of the 
+We are glad to explain that $\kappa$ is the coefficient of the 
 friction force and, therefore, is not related with the repulsive force 
-$\mathbf{f}_s$. Thus, as $\kappa$ increases, the more pedestrian's stick 
-together due the nature of the frictional force. Also, we wants to remark that 
+$\mathbf{f}_s$. Thus, as $\kappa$ increases, more pedestrians stick 
+together due the nature of the frictional force. Also, we want to remark that 
 the friction force is tangential to the center of mass between two pedestrians, 
 while the social force is normal to it. \\
 
