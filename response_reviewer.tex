@@ -76,15 +76,18 @@ be introduced here.
 The following comments are outlined in the same order as appearing in the
 reviewer’s report. \\
 
-The reviewer suggests a reorganization of the manuscript in order to improves 
-the lecture. \\ 
+The reviewer suggests a reorganization of the manuscript.He (she) suggests to include Appendix A in the main text.
+We consider that this is a very useful advice. 
+We included Appendix A and B in the main text (now Section 5.4 and 5.5 respectively). 
+This modification helps the reader to better understand the core message of the paper. \\ 
 
 The reviewer advices to modify the name of Section 3 ("Numerical Simulations"), we agree to rename 
 Section 3 as "Setting and parameters"
 
 The reviewer points that Section 4 ("Results") is too long and Subsection 4.1 ("Hypotheses")
-does not contain results, we moved the "Hypotheses" to a new Section previous to Results 
-(now Section 4 is "Hypotheses" and Section 5 is "Results"). 
+does not contain results.  We moved the "Hypotheses" to a new Section previous to Results 
+(now Section 4 is "Hypotheses" and Section 5 is "Results"). We also omitted Figs 4 and 5 to make
+the Section "Results" shorter. 
 
 Also, the reviewer made other comments.
 
@@ -107,63 +110,11 @@ page 6. We added the corresponding cite. \\
 
 3) ---
 
-4) The reviewer indicates that Fig.1 is not present. We clarified the fact that the Fig. 1 has a 
-dashed circle that represent the measurement region corresponding to the fundamental diagram measurements. 
+4) The reviewer indicates that Fig.1 is not present. We modified the text in order to clarified the fact that the Fig. 1 has a 
+dashed circle that represents the measurement region corresponding to the fundamental diagram measurements. 
 
 5) In Fig. 9, $\kappa$ means $\kappa_i$ and also $\kappa_w$. We replaced $\kappa$ by $\kappa_i = \kappa_w$ to make the caption more clear.   
 
-\iffalse
-The reviewer is concerned on the formal definition of the contagion 
-efficiency $\mathcal{P}$ appearing in Eq.~(7). She points out that 
-$\mathcal{P}$ does not express an explicit transition rate (from the relaxed 
-state to the anxious state), but the time integral of this rate along the time 
-period $\tau_i$. The common practice in stochastic theory is to (naturally) 
-introduce the transition rate and allow the pedestrians to mutate of state 
-after integrated in time. \\
-
-We examined again the definition expressed by Eq.~(7) and noticed that it is 
-not clear enough, as pointed out by the reviewer. The contagion efficiency 
-$\mathcal{P}$ is intended as the chance to mutate of state at the ``information 
-time-steps'' $\tau_i$, $2\tau_i$, $3\tau_i$, ....  The chance for this event to 
-occur within the time interval $(t,t+dt)$ reads 
-
-
-\begin{equation}
- d\mathcal{P}(t)=\left\{\begin{array}{ccl}
-                    
-J\displaystyle\bigg\langle\frac{k}{n}\bigg\rangle\,
-\displaystyle\frac{dt}{\tau_i} &
-\mathrm{if} & m\tau_i\in (t,t+dt) \\
-                    & & \\
-                    0  & \mathrm{if} & \mathrm{not}  \\
-                    \end{array}\right.\label{eqn:formal_P}
-\end{equation}
-
-for $m=1,2,3,...$. The transition rate can be computed straight forward from 
-the above, say, as $d\mathcal{P}/dt$.  However, an appropriate formal 
-expression for attaining the complete piecewise information in 
-Eq.~(\ref{eqn:formal_P}) should read as
-
-\begin{equation} 
-\displaystyle\frac{d\mathcal{P}}{dt}
-=\displaystyle\int_t^{t+\tau}
-\displaystyle\frac{J}{\tau_i}\,
-\displaystyle\bigg\langle\frac{k}{n}\bigg\rangle \,
-\delta(t-m\tau_i)\,dt\label{eqn:formal_P_2}
-\end{equation}
-
-where $\delta(\cdot)$ stands for the Dirac's delta function. This function 
-represents the fact that the pedestrians are allowed to mutate at fixed 
-time-steps.  Notice that $J/\tau_i$ corresponds to a ``normalized'' contagion 
-stress whenever the ``information time-step'' is set to $\tau_i$. We refer to 
-this normalized contagion stress along the simulation processes.  \\
-
-We decided to replace Eq.~(7) from the original manuscript by expressions 
-(\ref{eqn:formal_P}) and (\ref{eqn:formal_P_2}) for the sake of clarity. The 
-former Eq.~(7) now appears in Section 4.2 when explaining the computational 
-procedure. The text in Sections 2.3, 2.4 and Appendix C was changed accordingly. 
-\\
-\fi
 
 }
 
