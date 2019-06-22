@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.25)  29 MAY 2019 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  21 JUN 2019 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **response_reviewer.tex
 (./response_reviewer.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 8 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls
 Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -896,499 +896,489 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--87
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 107.
+(Font)              <12> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 107.
+(Font)              <8> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 107.
+(Font)              <6> on input line 106.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 [3]
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 ============================================================
 ====[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 The  paper  studies  the impact of the friction parameter in
  the[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 At first I thought this is a work concerned with the calibra
 tion[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 of  a  parameter  in an old model for a special case:  corri
 dors.[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 This sounds very  specific and not so overwhelmingly interes
 ting,[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 right? However, I  think this paper contains some nice ideas
  and[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 results  that  are  certainly  interesting  for the communit
 y if[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 written  and  presented adequately.  In my opinion the very 
 best[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 part  of the paper comes in the last 2/3 of the manuscript. 
 Only[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 here, the paper starts to show  interesting analysis and res
 ults,[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 I would describe as original.I think the authors would be be
 tter[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 off focusing more on the content in Appendix A and B.  This 
 nice[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 normalization, is good. from there work with Eq. (A.3) and g
 o on[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 with the clustering analysis.  The  analysis  shown in Fig. 
 6 is[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 also interesting. Here, I wish the authors could shed more l
 ight[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 on the famous boundary effects,  so controversially discusse
 d in[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 1)  Reading the introduction, I  believe  the  authors know 
 very[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 good the  works  done  by Helbing and some of his co-aut
 hors,[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 especially Johansson. Most of the references in the text
  are[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 citing these two (Ref.2 most of all). I believe, it woul
 d be[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 good to broaden a bit the literature review in the  intr
 oduc-[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 tion to more recent works as well.  At last, during the 
 last[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 10 years some  positive development in the  community  c
 ould[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 2)  I also suggest  to  reduce  the  obvious  enthusiasm  of
  the[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 authors and dispense with the  use   of superlatives lik
 e "a[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 wonderful summary" or "a seminal work" (repeated many ti
 mes).[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 By the way, Ref. 16 is from 2007.   A  more recent revie
 w of[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 empirical data can be found here doi : 10.1007/978 - 3 -
  642[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 - 27737 - 5_706-1"   Empirical  Results  of  Pedestrian 
  and[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 3)  The very  first paragraph in the paper is not quite accu
 rate[] 
  []
 
 [4]
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 in my opinion. The force  social force  model ever prese
 nted[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 was published in K. Hirai and K.Tarui in 1975  (a simula
 tion[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 of  the  behavior  of  a  crowd in panic,  Proc. of the 
 1975[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 International Conference on Cybernetics and  Society. (1
 975)[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 409-411). The model was not called SFM, but it is  a  fo
 rce-[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 model   that   "nicely  bridges  the  socio-psychology  
 with[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 4)  It is not clear to me why the SFM explains why the faste
 r-is[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 -slower effect happens. It can be produces, yes, but it 
 does[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 5)  In  general  the  authors  write  "Helbing  and  co-work
 ers".[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 I  suggest  to  use  the  more  formal et al.  This  is 
 also[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 more necessary in the references.There sometimes the aut
 hors[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 use all names of the authors and  sometimes only  the  f
 irst[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 author followed by et al. Please   also  check  some  er
 rors[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 7)  Section 3: Why is the length of the corridor L=28m while
  the[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 width is w=40m. This sounds strange and  I'm not  sure i
 f it[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 8)  Section 3: Why are the details about the implementation 
 (C++,[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 LAMMPS) necessary?  I think unless the authors are inten
 ding[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 to open-source  their  code (which would be nice by the 
 way)[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 there is no need to mention these details.  Also the aut
 hors[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 mention a LAMMPS built in function calculating  the clus
 ters.[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 9)  Section 4:  Here  the  authors  cite a  lot  of  other w
 orks,[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 especially  from  2  and  36, but they do not give their
  own[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 opinion,  in  regard  of  the  new  findings.  Again  ju
 st a[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 reminder Ref 2 is 10 years old. For new findings see Loe
 hner[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 10) Page  10:  vd is  the  desired speed not the "anxiety le
 vel".[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 11) Page 14:  "In  our  case, pedestrians near the walls are
  the[] 
  []
 
 [5]
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 ones with the lower velocity".Is this a know empirical f
 act?[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 Why  is  it  so?   Maybe the authors could explain more 
 this[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 12) I think Fig. 4 and 5 can be safely removed and just repl
 aced[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 13) The  interesting  phenomenon the authors show in page 23
  was[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 not  well  analysed  and  explained.  Why  is  it for hi
 gh k[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 pedestrians  stick  together more? Intuitively I would t
 hink[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 that  high  k  means  high repulsive forces which means 
 that[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 pedestrians  stay  away from each other not other way ar
 ound.[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 14) In Appendix A the two Parameters in Eq.A.3 are not discu
 ssed.[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 Instead the focus is still on tau and k.  How  is this g
 ood?[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 Why do you normalize the model, come up with two  parame
 ters[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []    \OT1/cmtt/m/n/12 only  then  to  continue  discussing  the  parameters in
  the[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 To summarize, I think this paper can be published. However, 
 some[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 heavy  restructuring  and  deeper  analysis  on  the  points
   of[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 232--232
 []\OT1/cmtt/m/n/12 ============================================================
 ====[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--241
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--245
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--256
+Underfull \hbox (badness 10000) in paragraph at lines 255--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--260
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 263--267
 
  []
 
@@ -1397,231 +1387,193 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+
+ []
+
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--288
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 289--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--294
+Underfull \hbox (badness 10000) in paragraph at lines 292--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
 
-Overfull \hbox (15.31897pt too wide) in paragraph at lines 298--299
-\OT1/cmr/m/n/12 pa-per are more re-lated to the work in Ref. doi.org/10.1103/Ph
-ysRevE.75.046109 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
 
  []
 
 
-Overfull \hbox (17.65132pt too wide) in paragraph at lines 300--302
-\OT1/cmr/m/n/12 We ac-knowl-edge this is-sue and made the cor-re-spond-ing chan
-ge in the manuscript. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 308--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--311
+Underfull \hbox (badness 10000) in paragraph at lines 317--320
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 323--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--323
+Underfull \hbox (badness 10000) in paragraph at lines 329--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--326
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-
- []
-
-
-Overfull \hbox (0.87927pt too wide) in paragraph at lines 329--330
-\OT1/cmr/m/n/12 to make it more un-der-stand-able for read-ers that are used to
- the un-normalized
- []
-
-
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 334--334
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 340--340
 []\OT1/cmtt/m/n/12 ============================================================
 ====[] 
  []
 
 [9]
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 ============================================================
 =====[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 The authors discussed the role of friction in SFM. The topic
   is[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 interesting and worthy studying. However, there are issues  
 that[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 should be addressed before processing to a possible  publica
 tion[] 
  []
 
 
-Overfull \hbox (17.5502pt too wide) in paragraph at lines 383--383
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 389--389
 [] \OT1/cmtt/m/n/12 (1)  Numerical  order. For instance, \[10, 12, 8]" (Introdu
 ction,[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 2. The  format  of  unit is nonstandard.  For  instance, \Pm
 - 2 "[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 3. Numerical simulations, page 8, paragraph 3: The  desired 
 velo-[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 city  for  each  pedestrian  was  1 m/s.  Whether the  de
 sired[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 4. Clusters, page 22, paragraph 2: In an enhanced friction s
 cena-[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 rio the individuals  find it harder to detach from each o
 ther.[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 Then why  are  possibilities  of  pedestrian belong to a 
 small[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 cluster and  giant  cluster almost  equal?  Why does a bi
 modal[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 5. Why  does  not the velocity profile report any relevant d
 iffe-[] 
  []
 
 
-Overfull \hbox (11.3752pt too wide) in paragraph at lines 383--383
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 rence  as  the corridor  widens, while the fundamental di
 agram[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 6. Numerical simulations, page 7, last paragraph: Initially,
  the[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 individuals were randomly distributed along the corridor,
  and[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 the corridor with periodic boundary  conditions.  Whether
  the[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []   \OT1/cmtt/m/n/12 initial distribute and boundary conditions may have an ef
 fect[] 
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 383--383
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/12 ============================================================
 ====[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 388--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 394--396
 
  []
 
@@ -1636,6 +1588,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--400
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
@@ -1646,11 +1603,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 411--412
 
  []
@@ -1660,24 +1617,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--426
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--432
 
  []
 
 [12] (./response_reviewer.aux) ) 
 Here is how much of TeX's memory you used:
- 11861 strings out of 494850
- 236457 string characters out of 6178024
- 272620 words of memory out of 5000000
- 14942 multiletter control sequences out of 15000+600000
+ 11861 strings out of 493029
+ 236457 string characters out of 6136233
+ 277166 words of memory out of 5000000
+ 15178 multiletter control sequences out of 15000+600000
  7820 words of font info for 28 fonts, out of 8000000 for 9000
- 62 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  55i,7n,54p,782b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -1686,7 +1658,7 @@ cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on response_reviewer.pdf (12 pages, 93808 bytes).
+Output written on response_reviewer.pdf (12 pages, 96415 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
